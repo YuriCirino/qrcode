@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 html {
     width: 100vw;
@@ -26,7 +26,7 @@ main {
     justify-content: center;
     padding: 15px;
     width: 22vw;
-    box-shadow: #94afceCC 0px 0px 50px -15px;
+    box-shadow: #94afcecc 0px 0px 50px -15px;
     padding-bottom: 50px;
 }
 .qrframe {
@@ -42,7 +42,7 @@ main {
     width: 100%;
     border-radius: 5px;
 }
-.texts{
+.texts {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -58,5 +58,33 @@ main {
     font-weight: 500;
     font-size: 0.95rem;
     text-align: center;
-    color:#888b96;
+    color: #888b96;
+}
+@media (max-width: 900px) {
+    main {
+        width: 30vw;
+    }
+    .qrframe {
+        padding: 10%;
+    }
+    .title{
+        font-size: 1rem;
+    }
+    .description{
+        font-size: 0.95rem;
+    }
+}
+@media (max-width: 600px) {
+    main {
+        width: 80vw;
+    }
+    .qrframe {
+        padding: 10%;
+    }
+    .title{
+        font-size: 1.1rem;
+    }
+    .description{
+        font-size: 0.95rem;
+    }
 }
