@@ -1,4 +1,4 @@
-### Desafio Frontend Mentor Challenge - QR Code Component 
+### Frontend Mentor Challenge - QR Code Component 
 #### [Frotend Mentor](https://www.frontendmentor.io/) Challenge - QR Code Component 
 Technologies used in this project  
 * HTML
